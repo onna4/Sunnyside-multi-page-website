@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+#headimg {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#headh1 {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 32%;
+    left: 25%;
+    font-size: 3.8rem;
+    letter-spacing: 0.5rem;
+    line-height: 0.1;
+    font-weight: bolder;
+    font-family: 'Fraunces', serif;
+ }
+ header {
+    background-image: url("/images/desktop/image-header.jpg");
+ }
+ #logo {
+    padding: 2.9rem;
+    display: flex;
+    width: 170px;
+    height: 35px;
+ }
+ #headnav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    color: white;
+    padding: 2.9rem 0 2.9rem 44%;
+ }
+ #headnav a {
+   color: white;
+   text-decoration: none;
+   position:relative;
+ }
+ #headnav {
+    display: flex;
+ }
+ #headnav li {
+    padding: 5px 1.5rem;
+    display: flex;
+ }
+ #arrow-icon {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 62%;
+ }
+ .one, .two {
+    display:flex;
+    margin-top: 0;
+ }
+ .infoblock {
+    background-color:  hsl(0, 20%, 96%);
+    font-family: 'Fraunces', serif;
+    padding-top: 10%;
+ }
+ .infoblock h1 {
+   font-size: 2.4rem;
+   padding: 0 23%;
+
+ }
+ .infoblock p {
+   padding: 5% 17% 5% 23%;
+   color: hsl(213, 9%, 39%);
+   font-family: 'Barlow', sans-serif;
+   font-size: 1.1rem;
+   font-weight: 800;
+   line-height: 1.6;
+ }
+ .infoblock h3  {
+   padding: 0 24%;
+
+
+ }
+ .zero {
+   margin-bottom: 0;
+   padding-bottom: 0;
+ }
+ .one, .two, .flexcont {
+   width: 100vw;
+ }
+ .one img , .two img {
+   width: 50%;
+ }
+ .collection {
+   display: flex;
+ }
+ .collection img {
+   width: 25%;
+ }
+ .relsec {
+   position: relative;
+   width: 50vw;
+ }
+ .relimg{
+   width: 50vw;
+ }
+ .rel {
+   position: absolute;
+   top: 60%;
+   color: hsl(211, 27%, 33%);
+   text-align: center;
+ }
+.rel h1{
+   font-family: 'Fraunces', serif;
+   font-size: 30px;
+}
+.rel p {
+   font-family: 'Barlow', sans-serif;
+   font-size: 17px;
+   padding: 5% 26%;
+   font-weight: 900;
+   line-height: 1.5;
+}
+.flexcont {
+   display: flex;
+}
+.testimon {
+   background-color:  hsl(0, 29%, 97%);
+   height: 110vh;
+   width: 100vw;
+}
+.testimon h2 {
+   color: hsl(210, 4%, 67%);
+   font-family: 'Fraunces', serif;
+   letter-spacing: .3rem;
+   font-size: 1.3rem;
+   text-align: center;
+   padding: 9rem 0 1rem 0;
+}
+.client {
+   border-radius: 50%;
+   height: 70px;
+}
+.fl {
+   padding: 5% 10%;
+   text-align: center;
+   width: 80%;
+}
+.test p{
+   padding: 2.8rem 1rem;
+   line-height: 1.7;
+   font-family: 'Barlow', sans-serif;
+   font-size: 18px;
+   font-weight: 440;
+   color: hsl(210, 18%, 26%);
+}
+.test h3 {
+   font-family: 'Fraunces', serif;;
+   padding: 1rem 0;
+}
+.test h5 {
+   font-family: 'Barlow', sans-serif;
+   color: hsl(210, 4%, 67%);
+}
+.social, .footnav ul {
+   display:flex;
+   justify-content: center;
+   padding :2rem 1rem;
+}
+.footnav ul {
+   list-style: none;
+}
+footer {
+   background-color:  rgb(163, 222, 203);
+   height: 50vh;
+   text-align: center;
+   width: 100%;
+}
+#footlogo {
+   padding-top: 5%;
+   height: 30px;
+}
+.social img {
+   padding: 0 1rem 3.9rem;
+}
+.footnav li {
+   padding: 0 2rem;
+   font-family: 'Barlow', sans-serif;
+   font-size: 19px;
+   color:rgb(76, 96, 90)
+}
+.footnav li:hover {
+   color: white;
+   cursor: pointer;
+}
+.social img:hover {
+   color: white;
+   cursor: pointer;
+}
+ #headnav ul li a:hover {
+   color: hsl(213, 9%, 39%);
+   text-transform: uppercase;
+   font-weight: 500;
+ }
+ #headnav ul li a:after {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   margin: auto;
+   width: 135%;
+   height: 1px;
+   content: '.';
+   color: transparent;
+   background: #f9f5e25c;
+   visibility: none;
+   opacity: 0;
+   z-index: -1;
+   border-radius: 25px;
+ }
+ #headnav ul li a:hover:after {
+   opacity: 1;
+   visibility: visible;
+   height: 200%;
+   left: -15px;
+ }
+ nav .fa-solid {
+   display: none;
+ }
+@media screen and (max-width:700px)  {
+   #headnav ul{
+      position: absolute;
+      display: block;
+      background-color: white;
+      height: 40vh;
+      width: 70vw;
+      top: 10%;
+      left: 5%;
+      z-index: 2;
+      transition: 1s;
+   }
+   #headnav ul li a {
+      color:hsl(210, 19%, 53%);
+      margin: 0 20%;
+      font-size: 2.9rem;
+      line-height: 2.2;
+   }
+   #headnav ul li a:after {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      width: 135%;
+      height: 1px;
+      content: '.';
+      color: transparent;
+      background: #fdd81a5c;
+      visibility: none;
+      opacity: 0;
+      z-index: -1;
+      border-radius: 25px;
+    }
+    #headnav ul li a:hover:after {
+      opacity: 1;
+      visibility: visible;
+      height: 130%;
+      left: -30px;
+    }
+   #headh1 {
+      font-size: 1.5rem;
+
+   }
+   .test p {
+      font-size: 15px;
+   }
+   .one .infoblock, .one img, .two .infoblock, .two img {
+      width: 100vw;
+      height: 100vh;
+   }
+   .one, .two {
+      flex-wrap: wrap;
+   }
+   .one {
+      align-items: flex-end;
+      justify-content: flex-end;
+   }
+   .test {
+      width: 100vw;
+      padding-top: 1rem;
+   }
+   .infoblock h1 {
+      font-size: 2.5rem;
+   }
+   .infoblock p {
+      font-size: 1.5rem;
+   }
+   .infoblock h3 {
+      font-size: 1rem;
+      padding-bottom: 10px;
+   }
+   .relsec img, .relsec {
+      width: 100vw;
+   }
+   #projects, .flexcont {
+      flex-wrap: wrap;
+   }
+   .relsec h1 {
+      font-size: 2.8rem;
+   }
+   .relsec p {
+      font-size: 2.5rem;
+   }
+   .collection img {
+      width: 50vw;
+   }
+   .collection {
+      flex-wrap: wrap;
+   }
+   nav .fa-solid {
+      display: block;
+      color: white;
+      font-size: 50px;
+      margin: 40px 86px;
+      cursor: pointer;
+    }
+    #x {
+      margin: 70px 86px;
+      color:hsl(210, 18%, 26%);
+      z-index: 2;
+    }
+}
+
+@media screen and (max-width: 900px) {
+   #headh1 {
+      font-size: 2.8rem;
+      left: 20%;
+      letter-spacing: 0;
+   }
+   #headnav ul {
+      font-size: 1rem;
+      padding: 2rem 0 2rem 20%;
+   }
+   .rel p {
+      font-size: .8rem;
+      padding: 2% 20%;
+   }
+   .rel h1 {
+      font-size: 20px;
+   }
+   .rel {
+      top: 53%;
+   }
+   .infoblock {
+      padding-top: 5%;
+   }
+   .infoblock h1 {
+      font-size: 2rem;
+   }
+   .infoblock p {
+      font-size: 1rem;
+   }
+   .infoblock h3 {
+      font-size: 15px;
+      padding-bottom: 10px;
+   }
+   .test p, .test h5 {
+      font-size: 1.6rem;
+   }
+}
