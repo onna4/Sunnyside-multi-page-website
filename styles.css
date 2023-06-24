@@ -114,10 +114,13 @@ nav .fa-solid, #burgericon {
    font-weight: bolder;
    font-family: var(--fraunces);
 }
+.text-overlay {
+   padding: 2rem;
+}
 #arrow-icon {
    position: absolute;
-   left: 48%;
    top: 65%;
+   left: 48%;
    height: 12rem;
 }
 .one, .two {
