@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-using-html-css-and-js-0hdDyvjYSp)
-- Live Site URL: [](https://onna4.github.io/Sunnyside-multi-page-website/)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-using-html-css-and-js-0hdDyvjYSp)
+- Live Site URL: [live site URL](https://onna4.github.io/Sunnyside-multi-page-website/)
 
 ## My process
 
